@@ -1,0 +1,180 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Tambahkan gaya lainnya sesuai kebutuhan Anda */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffd700; /* Warna saat mouse hover */
+}
+/* style.css */
+
+/* Gaya tabel */
+table {
+    width: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 20px;
+   /* Jarak dari elemen sebelumnya */
+}
+
+/* Gaya sel header */
+th {
+    padding: 12px;
+    text-align: center;
+    background-color: #945151; /* Warna latar belakang header */
+    border: 1px solid #070707; /* Garis tepi */
+}
+
+/* Gaya sel data */
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #070707; /* Garis tepi */
+}
+
+/* Gaya tombol aksi */
+td button {
+    padding: 6px 10px;
+    margin: 2px;
+}
+/* Add to your existing CSS file or in a new style tag in the head */
+/* Add this to your existing CSS file */
+/* Add this to your existing CSS file */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+    width: 100%;
+    text-align: center; /* Center the content */
+}
+
+#addInventoryForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Adjust button styling */
+#addInventoryForm button {
+    margin-top: 15px; /* Add some margin to separate buttons from inputs */
+}
+
+/* Add this to center the form within the modal */
+/* #addInventoryForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addProductForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Add to your existing CSS file or in a new style tag in the head */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2979ff;
+    color: #fafafa;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1652a2;
+}
+/* Add to your existing CSS file or in a new style tag in the head */
+.button-container {
+    text-align: right;
+    margin-bottom: 15px; /* Add margin to create some space between the button and the table */
+}
+
+button {
+    width: auto; /* Adjust the width to fit the content */
+    padding: 8px 15px; /* Add padding to make the button smaller */
+    background-color: #2979ff;
+    color: #fafafa;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add border-radius for a slightly rounded appearance */
+}
+
+button:hover {
+    background-color: #1652a2;
+}
+
